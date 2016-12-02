@@ -1,0 +1,22 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Simple app that displays the clock",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merfoo/clock.git"
+  },
+  "author": "Fauzi Kliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merfoo/clock/issues"
+  },
+  "homepage": "https://github.com/Merfoo/clock#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

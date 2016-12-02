@@ -1,0 +1,27 @@
+@font-face {
+    font-family: clock_font;
+    src: url("../fonts/digital-7.ttf");
+}
+
+#clock_container {
+    font-family: clock_font;
+    font-size: 200px;
+    text-align: center;
+    margin: auto;
+    width: 480px;
+    height: 160px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.clock_number {
+    float: left;
+    width: 110px;
+    margin: auto;
+}
+
+#colon {
+    float: left;
+    width: 40px;
+    height: 10px;
+}
